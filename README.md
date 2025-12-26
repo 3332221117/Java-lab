@@ -41,3 +41,8 @@ public class DefaultValues {
 
 }
 #output
+![Output](PrimitiveDataTypes.java)
+
+
+
+
