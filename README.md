@@ -119,6 +119,112 @@ System.out.println("Root 1: " + realPart + " + " + imaginaryPart + "i");
 
 
 
+#Tittle implementation of class mechanism 2(a)
+class Student {
+    // Data members
+    int rollNo;
+    String name;
+    void setData(int r, String n) {
+        rollNo = r;
+        name = n;
+    }
+    void display() {
+        System.out.println("Roll No: " + rollNo);
+        System.out.println("Name: " + name);
+    }
+    public static void main(String[] args) {
+        Student s1 = new Student();  
+        s1.setData(23, "venu");      
+        s1.display();           
+    }
+}
+
+#output
+
+
+
+
+
+
+
+
+
+
+
+# method overloading 2(b)
+
+b) Java program to implement method overloading
+(Same method name with different parameters)
+
+class MethodOverloading {
+    int add(int a, int b) {
+        return a + b;
+   }
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+    double add(double a, double b) {
+        return a + b;
+    }
+    public static void main(String[] args) {
+        MethodOverloading obj = new MethodOverloading();
+        System.out.println("Sum of 2 integers: " + obj.add(10, 20));
+        System.out.println("Sum of 3 integers: " + obj.add(10, 20, 30));
+        System.out.println("Sum of 2 doubles: " + obj.add(5.5, 4.5));
+    }
+}
+
+
+#output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#implementation of constructer2(c)
+
+
+
+c) Java program to implement constructor
+(Constructor initializes object values)
+
+class Employee {
+    int marks;
+    int age;
+    String Name;
+    Employee(int m, String n,int a) {
+        marks = marks;
+        Name= name;
+        age= a;
+    }
+    void display() {
+        System.out.println("Employee marks: " + Marks);
+        System.out.println("Employee Name: " + Name);
+        System.out.println("Employee age: " + age);
+    }
+    public static void main(String[] args) {
+        Employee e1 = new Employee(201, "Suresh",19); 
+        e1.display();
+    }
+}
+
+
+#output
+
+
+
+
 
 
 
