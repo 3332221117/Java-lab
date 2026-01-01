@@ -120,6 +120,8 @@ System.out.println("Root 1: " + realPart + " + " + imaginaryPart + "i");
 
 
 #Tittle implementation of class mechanism 2(a)
+
+
 class Student {
     // Data members
     int rollNo;
@@ -140,6 +142,7 @@ class Student {
 }
 
 #output
+![OUTPUT](2a)
 
 
 
