@@ -122,23 +122,43 @@ System.out.println("Root 1: " + realPart + " + " + imaginaryPart + "i");
 #Tittle implementation of class mechanism 2(a)
 
 
-class Student {
-    int rollNo;
-    String name;
-    void setData(int r, String n) {
-        rollNo = r;
-        name = n;
-    }
-    void display() {
-        System.out.println("Roll No: " + rollNo);
-        System.out.println("Name: " + name);
-    }
-    public static void main(String[] args) {
-        Student s1 = new Student();  
-        s1.setData(23, "venu");      
-        s1.display();           
-    }
+class Student
+{
+int rollno;
+
+String name;
+
+Void setData(int r, String n)
+
+{
+rollno=r;
+
+name n;
 }
+
+Void display ()
+
+{
+
+System.out.printin ("Roll no:" + Rollno);
+
+System.out.printin ("name: " + name);
+
+}
+
+public static void main(String[] args) }
+
+Student s1 = new Student ();
+
+s2. SetData (23, "venu");
+
+s1. display();
+
+
+}
+
+}
+
 
 #output
 ![OUTPUT](2a)
@@ -158,22 +178,47 @@ class Student {
 b) Java program to implement method overloading
 (Same method name with different parameters)
 
-class MethodOverloading {
-    int add(int a, int b) {
-        return a + b;
-   }
-    int add(int a, int b, int c) {
-        return a + b + c;
-    }
-    double add(double a, double b) {
-        return a + b;
-    }
-    public static void main(String[] args) {
-        MethodOverloading obj = new MethodOverloading();
-        System.out.println("Sum of 2 integers: " + obj.add(10, 20));
-        System.out.println("Sum of 3 integers: " + obj.add(10, 20, 30));
-        System.out.println("Sum of 2 doubles: " + obj.add(5.5, 4.5));
-    }
+Class overloading
+
+{
+
+int add (int a, int b)
+
+{
+
+return a+b;
+
+}
+
+int add (int a, int b, int c).
+
+{
+
+return a+b+c;
+
+}
+
+double add (double a, double b)
+
+{
+
+return a+b;
+
+}public static void main(String[] args) {
+
+overloading obj = new Overloading ();
+
+System.out.println("sum of towo integers: "
+
++ obj-add) (10,20));
+
+System.out.printin ("sum ofthree integers:"
+
++ obf. add (20,30, 40));
+
+System.out.println("sum of two double;"
++ obf. double (10.0,5.0));
+
 }
 
 
