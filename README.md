@@ -123,7 +123,6 @@ System.out.println("Root 1: " + realPart + " + " + imaginaryPart + "i");
 
 
 class Student {
-    // Data members
     int rollNo;
     String name;
     void setData(int r, String n) {
