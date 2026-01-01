@@ -178,7 +178,7 @@ class MethodOverloading {
 
 
 #output
-
+![OUTPUT](2b)
 
 
 
@@ -224,7 +224,7 @@ class Employee {
 
 #output
 
-
+![OUTPUT](2c)
 
 
 
