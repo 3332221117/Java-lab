@@ -201,24 +201,45 @@ class MethodOverloading {
 c) Java program to implement constructor
 (Constructor initializes object values)
 
-class Employee {
-    int marks;
-    int age;
-    String Name;
-    Employee(int m, String n,int a) {
-        marks = marks;
-        Name= name;
-        age= a;
-    }
-    void display() {
-        System.out.println("Employee marks: " + Marks);
-        System.out.println("Employee Name: " + Name);
-        System.out.println("Employee age: " + age);
-    }
-    public static void main(String[] args) {
-        Employee e1 = new Employee(201, "Suresh",19); 
-        e1.display();
-    }
+Class Student
+
+{
+
+String name;
+
+int marke
+
+int age;
+
+Student (String n, int m, int a) {
+
+name = n;
+
+moriks m;
+
+age = a;
+
+}
+
+Void display()
+
+{
+
+System.out.printin ("name: " + name);
+
+System.out.printin ("Marks:" + monks);
+
+System.out.println("Age: " + age);
+
+}
+public static void main(String[] args)
+{
+
+Student 51= new Student ("Venu", 99, 15);
+
+s1. display();
+}
+
 }
 
 
