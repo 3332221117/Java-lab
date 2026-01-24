@@ -334,6 +334,7 @@ class Student {
 
 #3(b) binary search 
 
+
 import java.util.Arrays;
 
 class BinarySearchDemo {
@@ -386,6 +387,7 @@ class BinarySearchDemo {
 
 
 #3(c) bubblesort program
+
 class BubbleSort {
 
  public static void main(String[] args) {
