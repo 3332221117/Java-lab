@@ -292,7 +292,7 @@ s1. display();
 
 ![OUTPUT](2c)
 
-3(a) constructer overloading 
+#3(a) constructer overloading 
 
 class Student {
     String name;
@@ -327,11 +327,12 @@ class Student {
         s3.display();
     }
 }
+#output
 ![OUTPUT](3a)
 
 
 
-3(b) binary search 
+#3(b) binary search 
 
 import java.util.Arrays;
 
@@ -380,10 +381,11 @@ class BinarySearchDemo {
     }
 }
 
+#output
 ![OUTPUT](3b)
 
 
-3(c) bubblesort program
+#3(c) bubblesort program
 class BubbleSort {
 
  public static void main(String[] args) {
@@ -415,4 +417,5 @@ class BubbleSort {
 }
 
 
+#output
 ![OUTPUT](3c)
