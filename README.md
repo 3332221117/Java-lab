@@ -288,7 +288,7 @@ s1. display();
 }
 
 
-#output
+###output
 
 ![OUTPUT](2c)
 
@@ -327,7 +327,7 @@ class Student {
         s3.display();
     }
 }
-#output
+###output
 ![OUTPUT](3a)
 
 
@@ -382,7 +382,7 @@ class BinarySearchDemo {
     }
 }
 
-#output
+###output
 ![OUTPUT](3b)
 
 
@@ -419,5 +419,5 @@ class BubbleSort {
 }
 
 
-#output
+###output
 ![OUTPUT](3c)
